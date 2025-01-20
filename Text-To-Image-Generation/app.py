@@ -18,7 +18,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Set up Hugging Face API for image generation
 API_URL = "https://api-inference.huggingface.co/models/Jovie/Midjourney"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "give me your hugging face token"}
 
 # Set up the prompt template
 prompt = ChatPromptTemplate.from_template(
